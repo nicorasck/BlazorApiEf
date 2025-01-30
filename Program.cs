@@ -1,5 +1,7 @@
+using BlazorApiEf.Data;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApiEf;
 
@@ -12,6 +14,9 @@ public class Program
         builder.RootComponents.Add<HeadOutlet>("head::after");
 
         builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+        builder.Services.AddDbContext<UserDbContext>(options =>
+        options.UseSqlite("Data Source=BlazorApiEf.db"));
 
         await builder.Build().RunAsync();
     }
