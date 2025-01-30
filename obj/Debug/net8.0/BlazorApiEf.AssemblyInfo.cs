@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorApiEf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebe39792637c0878e9991966b36245f9aec4ec59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47304b98a2be7f782a5e43789d71705be4fad797")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorApiEf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorApiEf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
